@@ -30,4 +30,5 @@ if __name__ == "__main__":
     tests = unittest.TestSuite((
         unittest.makeSuite(CreditCardTest)
     ))
+
     unittest.TextTestRunner().run(tests)
